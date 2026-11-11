@@ -1,7 +1,7 @@
 {
   "name": "volkstrader",
   "owner": { "name": "volkstrader", "url": "https://github.com/volkstrader" },
-  "metadata": { "description": "volkstrader's Claude Code skills and mods, forked from johnnyvizz/claude-kit and robonuggets/ribbon (both MIT)." },
+  "metadata": { "description": "volkstrader's Claude Code skills and mods, forked from johnnyvizz/claude-kit, robonuggets/ribbon and data-goblin/claude-code-filetree (all MIT)." },
   "plugins": [
     {
       "name": "savvy-flow",
@@ -29,6 +29,13 @@
       "source": { "source": "url", "url": "git@github.com:volkstrader/cc-mod-ribbon.git" },
       "description": "Mod: a slim band above the prompt with usage left, reset times, and whether the prompt cache is warm or cold with what the next message costs.",
       "version": "1.0.0",
+      "category": "mod"
+    },
+    {
+      "name": "filetree",
+      "source": { "source": "url", "url": "git@github.com:volkstrader/cc-mod-filetree.git" },
+      "description": "Mod: IDE-style file tree pane of the session cwd with git status, lines changed, and a shimmer on files Claude reads, writes and commits.",
+      "version": "0.8.3",
       "category": "mod"
     }
   ]
