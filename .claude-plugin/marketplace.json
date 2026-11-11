@@ -1,7 +1,7 @@
 {
   "name": "volkstrader",
   "owner": { "name": "volkstrader", "url": "https://github.com/volkstrader" },
-  "metadata": { "description": "volkstrader's Claude Code skills and mods, forked from johnnyvizz/claude-kit, robonuggets/ribbon, data-goblin/claude-code-filetree, karanb192/cache-tax and zenbu-labs/terminal-browser (all MIT)." },
+  "metadata": { "description": "volkstrader's Claude Code skills and mods, forked from johnnyvizz/claude-kit, robonuggets/ribbon, data-goblin/claude-code-filetree and karanb192/cache-tax (all MIT)." },
   "plugins": [
     {
       "name": "savvy-flow",
@@ -43,13 +43,6 @@
       "source": { "source": "url", "url": "git@github.com:volkstrader/cc-mod-cache-tax.git" },
       "description": "Mod: keeps the one-hour prompt cache warm during breaks and asks before a cold send, showing its estimated rewrite cost. Warming costs tokens.",
       "version": "2.4.1",
-      "category": "mod"
-    },
-    {
-      "name": "terminal-browser",
-      "source": { "source": "git-subdir", "url": "git@github.com:volkstrader/cc-mod-terminal-browser.git", "path": "claude-code-plugin" },
-      "description": "Mod: a real browser in a Claude Code pane (terminal only, kitty graphics). Needs the terminal-browser CLI installed separately.",
-      "version": "0.0.2",
       "category": "mod"
     }
   ]
