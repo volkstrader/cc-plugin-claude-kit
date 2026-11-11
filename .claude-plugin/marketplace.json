@@ -1,7 +1,7 @@
 {
-  "name": "claude-kit",
-  "owner": { "name": "johnnyvizz", "url": "https://github.com/johnnyvizz" },
-  "metadata": { "description": "johnnyvizz's public Claude Code skills and mods." },
+  "name": "volkstrader",
+  "owner": { "name": "volkstrader", "url": "https://github.com/volkstrader" },
+  "metadata": { "description": "volkstrader's Claude Code skills and mods, forked from johnnyvizz/claude-kit and robonuggets/ribbon (both MIT)." },
   "plugins": [
     {
       "name": "savvy-flow",
@@ -22,6 +22,13 @@
       "source": "./plugins/session-band",
       "description": "Mod: band above the prompt with turn, speed, cost, prompt cache countdown and context; notifies before the cache expires.",
       "version": "0.2.0",
+      "category": "mod"
+    },
+    {
+      "name": "ribbon",
+      "source": { "source": "url", "url": "git@github.com:volkstrader/cc-mod-ribbon.git" },
+      "description": "Mod: a slim band above the prompt with usage left, reset times, and whether the prompt cache is warm or cold with what the next message costs.",
+      "version": "1.0.0",
       "category": "mod"
     }
   ]
