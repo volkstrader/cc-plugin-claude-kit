@@ -1,7 +1,7 @@
 {
   "name": "volkstrader",
   "owner": { "name": "volkstrader", "url": "https://github.com/volkstrader" },
-  "metadata": { "description": "volkstrader's Claude Code skills and mods, forked from johnnyvizz/claude-kit, robonuggets/ribbon and data-goblin/claude-code-filetree (all MIT)." },
+  "metadata": { "description": "volkstrader's Claude Code skills and mods, forked from johnnyvizz/claude-kit, robonuggets/ribbon, data-goblin/claude-code-filetree and karanb192/cache-tax (all MIT)." },
   "plugins": [
     {
       "name": "savvy-flow",
@@ -36,6 +36,13 @@
       "source": { "source": "url", "url": "git@github.com:volkstrader/cc-mod-filetree.git" },
       "description": "Mod: IDE-style file tree pane of the session cwd with git status, lines changed, and a shimmer on files Claude reads, writes and commits.",
       "version": "0.8.3",
+      "category": "mod"
+    },
+    {
+      "name": "cache-tax",
+      "source": { "source": "url", "url": "git@github.com:volkstrader/cc-mod-cache-tax.git" },
+      "description": "Mod: keeps the one-hour prompt cache warm during breaks and asks before a cold send, showing its estimated rewrite cost. Warming costs tokens.",
+      "version": "2.4.1",
       "category": "mod"
     }
   ]
